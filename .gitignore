@@ -1,0 +1,123 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# Node / React / Vite
+# =========================
+
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+
+.vite/
+frontend/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================
+# OS / Editor
+# =========================
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+
+*.swp
+*.swo
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+
+# =========================
+# Build / Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+
+
+# =========================
+# Python generated files
+# =========================
+
+*.egg-info/
+.eggs/
+build/
+develop-eggs/
+dist/
+
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# Local AI / Model files
+# =========================
+
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+
+# =========================
+# Local data
+# =========================
+
+*.csv
+*.tsv
+*.jsonl
+
+data/
+datasets/
